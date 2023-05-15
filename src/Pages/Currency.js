@@ -1,4 +1,5 @@
 import React from 'react';
+import './Pages.css'
 
 function PrintCurrencyGraph(){
 
@@ -6,10 +7,12 @@ function PrintCurrencyGraph(){
 
 const Currency = () => {
     return (
-        <div>
+        <div >
             <h1>Welcome to MoneyTree</h1>
-            <input className={""} placeholder={"Выберите валюту"}/>
-
+            <div className={"curmenu"}>
+                <input className={""} placeholder={"Выберите валюту"}/>
+                <input type={"button"} className={"button-icon-currency"}/>
+            </div>
         </div>
     );
 };

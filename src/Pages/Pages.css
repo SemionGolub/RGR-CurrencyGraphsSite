@@ -1,0 +1,20 @@
+.button-icon-currency{
+    background-image: url("Resourses/arrow-down-green.svg");
+    background-color: white;
+    border: none;
+    background-position: center;
+    width: 50px;
+    height: 45px;
+    transition: 0.2s linear;
+    margin-left: 10px;
+}
+.button-icon-currency:hover{
+    background-image: url("Resourses/arrow-down-greenBig.svg");
+    width: 50px;
+    height: 45px;
+}
+
+.curmenu{
+    display: flex;
+    align-items: center;
+}

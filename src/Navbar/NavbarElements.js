@@ -15,12 +15,10 @@ export const Nav = styled.nav`
 
 export const NavLink = styled(Link)`
   color: #fff;
-   display: flex;
+  display: flex;
   align-items: center;
   font-size: 20px;
   text-decoration: none;
-  padding: 0 1rem;
-  height: 50%;
   cursor: pointer;
   &.active {
     
@@ -46,7 +44,7 @@ export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   margin-right: 24px;
-  margin-left: 400px;
+  margin-left: 65%;
   /* Second Nav */
   /* margin-right: 24px; */
   /* Third Nav */
